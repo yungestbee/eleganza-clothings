@@ -36,11 +36,13 @@ nav ul a{
 .input-group input{
     width: 15vw;
     height: 3vh;
-}
-
-.input-group input {
     font-size:1rem;
     padding-left: 1rem;
+    margin-right: 8rem;
+}
+
+.input-group img {
+    width: 3rem;
 }
 
 .head{
@@ -48,5 +50,9 @@ nav ul a{
     position: sticky;
     margin-bottom:2rem;
 
+}
+
+.check{
+    width:2rem
 }
 

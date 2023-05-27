@@ -1,5 +1,7 @@
 import image from './neww.png'
 import './header.css'
+import photo from './klipartz.com (6).png'
+
 
 const Header = () =>{
     return(
@@ -13,9 +15,8 @@ const Header = () =>{
                     <a href="#">Sign Up</a>
                 </ul>
                 <div className='input-group'>
-                    <input type="text" placeholder="What are you looking for?"/>
-                    <a href="#"><i class="fa-regular fa-heart"></i></a>
-                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <input type="search" placeholder="What are you looking for?"/>
+                    <a href="#"><img src={photo}/></a>
                 </div>
             </nav>
         </header>
