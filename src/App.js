@@ -8,11 +8,13 @@ import ThirdHero from './components/homePage/thirdHero';
 import FourthHero from './components/homePage/fourthHero';
 import FifthHero from './components/homePage/fifthHero';
 import Cart from './components/homePage/cart'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
 function App() {
   return (
     <>
+
       <div className="">
         <Header />
         <div className='app'>
@@ -25,6 +27,11 @@ function App() {
         <FifthHero />
         <Cart />
         <Footer />
+        <Router>
+            <Route exact path="/" component={Home} />
+            <Route path="./SignUpComponent/Signup" component={SignUp} />
+            <Route path="./CartComponents/Cart" component={Cart} />
+       </Router>
 
       </div>
     </>

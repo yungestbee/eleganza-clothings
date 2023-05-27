@@ -84,7 +84,7 @@ const SecondHero = () =>{
             </div>
                     
                     <div>
-                        <button className='btn'>View All Products</button>
+                        <Link to="/"><button className='btn'>View All Products</button></Link>
                     </div>
         </div>
 
