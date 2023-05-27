@@ -1,0 +1,52 @@
+nav{
+    display: flex;
+    /* border:1px solid #000; */
+    width:90vw;
+    margin:auto;
+    padding-bottom:1rem
+
+}
+
+nav img{
+    width:7rem;
+    /* border:1px solid; */
+    padding:0;
+}
+nav ul{
+    width:40vw;
+    display:flex;
+    /* outline:1px solid; */
+    margin: 1rem 10%;
+    
+    justify-content: space-between;
+}
+
+nav ul a{
+    color:#000;
+    font-size:1.2rem;
+}
+
+.input-group{
+    /* outline:1px solid; */
+    display:flex;
+    align-items: center;
+    width:20vw;
+}
+
+.input-group input{
+    width: 15vw;
+    height: 3vh;
+}
+
+.input-group input {
+    font-size:1rem;
+    padding-left: 1rem;
+}
+
+.head{
+    border-bottom: 1px solid;
+    position: sticky;
+    margin-bottom:2rem;
+
+}
+

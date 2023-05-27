@@ -1,0 +1,410 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500&family=Poppins:wght@200;300;400;500;600;700;800&family=Raleway:wght@500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: manrope;
+}
+.flex a{
+    color:#fff
+}
+
+h1{
+    font-family:poppins;
+}
+h2{
+    font-family:poppins;
+}
+h3{
+    font-family:poppins;
+}
+h4{
+    font-family:poppins;
+}
+
+.foot{
+    background-color: black;
+    color: #fff;
+    height: auto;
+    padding:2rem 0;
+}
+.flex{
+display:flex;
+margin:2rem auto;
+justify-content: space-between;
+width:90vw;
+/* outline:1px solid white; */
+}
+.items{
+    display: flex;
+    flex-direction: column;
+    /* outline:1px solid white; */
+}
+
+.items h3{
+    margin-bottom:1rem;
+}
+.items h4{
+    margin-bottom:1rem;
+}
+
+.items p{
+    margin-bottom:1rem;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.star img{
+    width:1rem;
+    height:1rem;
+}
+
+.card-top{
+    background-image: url(./images/female-wears/high-fashion-portrait-young-beautiful-brunette-woman-wearing-nice-pink-summer-suit_158538-19517.avif);
+    width:15vw;
+    height:15vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card{
+    /* outline: 1px solid; */
+    width:15vw;
+    
+}
+
+.span{
+    background-color: rgb(238, 127, 199);
+    padding:0.3rem;
+    margin-top:0.2rem;
+    margin-left:0.2rem;
+    border-radius: 5px;
+    position: absolute;
+
+}
+
+.cards{
+    display:flex;
+    justify-content: space-between;
+    /* outline:1px solid; */
+    width:90vw;
+    margin:auto;
+}
+
+.btn{
+    background-color: #ff0000;
+    color:#fff;
+    margin:1rem 45% ;
+    border-radius:3px;
+    padding:0.5rem 0.7rem;
+    border:none;
+    
+}
+
+.bsp{
+    display: flex;
+    justify-content: space-between;
+    margin:2rem auto;
+    width:90vw;
+    /* outline:1px solid; */
+    align-items:center
+
+}
+
+.last-card{
+    background-color: #000;
+    width:90vw;
+    height: auto;
+    display: flex;
+}
+
+.hero{
+    width: 76vw;
+    outline:1px solid;
+    margin-left:1%;
+    background:#000 url(./images/male-wears/trouser\ 3.png);
+    background-size: 50%;
+    height:40vh;
+    background-position-y:top;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    color:#fff;
+}
+.hero a{
+    border-bottom:1px solid #fff;
+    color:#fff;
+    margin-left:10%;
+    font-size:1.5rem;
+
+}
+
+.hero h2{
+    width:50%;
+    /* outline :1px solid #fff; */
+    font-size:5rem;
+    margin-left:10%;
+    padding-top:4%
+}
+
+.app{
+    display:flex;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    /* position: inherit; */
+}
+
+.sidebar{
+    margin-top:-2rem;
+    margin-left:5%;
+    border-right: 1px solid #000;
+    padding-right: 4rem;
+    padding-top:2rem;
+    display:flex;
+    flex-direction: column;
+}
+.sidebar select{
+    font-size: larger;
+    border:none
+}
+
+.secondHero{
+    margin:2rem auto;
+    width:90vw;
+
+}
+
+.secondHero h2{
+    margin-bottom:1rem;
+}
+
+#btn1{
+    background-color: #ff0000;
+    color:#fff;
+    /* float: right; */
+    border-radius:3px;
+    padding:0.5rem 0.9rem;
+    border:none;
+    
+}
+
+
+.bsp h2{
+    /* border:1px solid; */
+    width:15vw;
+}
+
+.last-card{
+    /* background:#000 url(../images/female-wears/denim-data-removebg-preview.png);
+    background-position-y:top;
+    background-repeat: no-repeat;
+    background-position-x: right; */
+    color:#fff;
+    width:90vw;
+    margin:3rem auto;
+
+}
+
+.lastCardItem{
+    width:55%;
+    /* outline:1px solid white; */
+    margin-left:2%;
+
+}
+.lastCardItem h1{
+    /* outline:1px solid white; */
+    font-size:4rem;
+    margin-top:2rem
+
+}
+.lastCardItem p{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.btn2{
+    background-color: #ff0000;
+    color:#fff;
+    /* float: right; */
+    border-radius:3px;
+    padding:1rem 1.3rem;
+    border:none;
+    font-size: 1rem;
+    width:15%;
+    margin-top:2rem;
+}
+
+.grid-container{
+    display: grid;
+    margin:3rem auto;
+    column-gap:0.72%;
+    row-gap:1.72%;
+    width:90vw;
+    height:40rem;
+    grid-template-columns: 24.5% 24.5% 24.5% 24.5%;
+    grid-template-rows:49.2% 49.2%;
+    /* outline: 1px solid ; */
+    color:#fff;
+}
+.arrival{
+    color:#000;
+    margin-left:5%;
+    /* outline: 1px solid black; */
+}
+
+.grid-item1{
+    padding-left:3rem;
+}
+.grid-item1 h5{
+    font-size: 4rem;
+    margin-top:8rem
+}
+.grid-item1 p{
+    font-size: 2rem;
+    margin-top:4rem;
+    margin-bottom: 4rem;
+}
+
+
+.grid-item1 a{
+    font-size: 2rem;
+    color:#fff;
+    border-bottom:1px solid;
+
+}
+
+.grid-item2{
+    padding-left:3rem;
+}
+.grid-item2 h5{
+    font-size: 4rem;
+    margin-top:2rem
+}
+.grid-item2 p{
+    font-size: 2rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+
+.grid-item2 a{
+    font-size: 2rem;
+    color:#fff;
+    border-bottom:1px solid;
+
+}
+
+.grid-item3{
+    padding-left:3rem;
+}
+.grid-item3 h5{
+    font-size: 2rem;
+    margin-top:2.5rem
+}
+.grid-item3 p{
+    font-size: 1.5rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+
+.grid-item3 a{
+    font-size: 1.5rem;
+    color:#fff;
+    border-bottom:1px solid;
+
+}
+
+.grid-item4{
+    padding-left:3rem;
+}
+.grid-item4 h5{
+    font-size: 2rem;
+    margin-top:2.5rem
+}
+.grid-item4 p{
+    font-size: 1.5rem;
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+
+.grid-item4 a{
+    font-size: 1.5rem;
+    color:#fff;
+    border-bottom:1px solid;
+
+}
+
+
+.grid-item1{
+    background:#000 url(./images/male-wears/17697-19-summer-wedding-guest-suit-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    height: 40rem;
+    grid-row:1 / span 2;
+    grid-column: 1 / span 2;
+
+}
+
+.grid-item2{
+    background:#000 url(./images/female-wears/denim-data-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: top;
+    grid-row-start:1;
+    grid-row-end:2;
+    grid-column:3 / span 2;
+    width:100%;
+}
+
+.grid-item3{
+    background:#000 url(./images/female-wears/pexels-spencer-selover-428338-removebg-preview.png);
+    background-repeat: no-repeat;
+    /* background-position-x: right; */
+    background-position-y: top;
+    grid-row-start:2;
+    grid-row-end:3;
+    
+}
+
+.grid-item4{
+    background:#000 url(./images/male-wears/4cd4ea74de1486826fb023b66e8a6cfa-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position-x: left;
+    /* background-position-y: top; */
+    grid-row-start:2;
+    grid-row-end:3;
+    
+}
+
+.google{
+    display:flex;
+    width:100%;
+    /* outline:1px solid white; */
+
+}
+.google img{
+    width:38%
+}
+
+#play{
+    width:60%;
+    margin-left:2%;
+}
+
+#items{
+    /* outline:1px solid greenyellow; */
+    width: 20%
+}
+
+
+
+
+

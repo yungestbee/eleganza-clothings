@@ -1,24 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/homePage/header'
+import HeroSection from './components/homePage/heroSection';
+// import MidSection from './components/midSection';
+import Footer from './components/homePage/footer';
+import SideBar from './components/homePage/sidebar';
+import SecondHero from './components/homePage/secondHero';
+import ThirdHero from './components/homePage/thirdHero';
+import FourthHero from './components/homePage/fourthHero';
+import FifthHero from './components/homePage/fifthHero';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="">
+        <Header />
+        <div className='app'>
+          <SideBar />
+          <HeroSection />
+        </div>
+        <SecondHero />
+        <ThirdHero />
+        <FourthHero />
+        <FifthHero />
+        <Footer />
+
+      </div>
+    </>
   );
 }
 
