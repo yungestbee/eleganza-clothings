@@ -10,7 +10,10 @@ const Footer =()=>{
                     <h3>Eleganza</h3>
                     <h4>Subscribe</h4>
                     <p>Get 10% off your first order</p>
-                    <input type="text" placeholder="Enter your Email"/>
+                    <div>
+                    <input type="email" placeholder="Enter your Email"/>
+                    <input type="submit"/>
+                    </div>
                 </div>
                 <div className="items">
                     <h4>Support</h4>
